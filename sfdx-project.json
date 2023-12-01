@@ -13,6 +13,13 @@
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "59.0",
+  "replacements": [
+    {
+      "filename": "force-app/main/default/classes/SecretsController.cls",
+      "stringToReplace": "{{ SECRET }}",
+      "replaceWithEnv": "SECRET"
+    }
+  ],
   "packageAliases": {
     "2GP Packaging Unlocked": "0HoGB000000k9o70AA"
   }
